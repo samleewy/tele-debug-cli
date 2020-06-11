@@ -1,0 +1,29 @@
+{
+  "name": "tele-debug-cli",
+  "version": "1.0.0",
+  "description": "Telegram Bot CLI - make debugging easier",
+  "main": "bin/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "cli",
+    "debug",
+    "testing",
+    "samleewy"
+  ],
+  "author": "Samuel Lee",
+  "license": "ISC",
+  "bin": {
+    "tb": "./bin/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cli-table3": "^0.6.0",
+    "data-store": "^4.0.3",
+    "keytar": "^6.0.1",
+    "yargs": "^15.3.1"
+  }
+}
