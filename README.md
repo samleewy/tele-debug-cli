@@ -22,6 +22,14 @@ $ tb msg sgrs test 'This is a test message.'
 > [SUCCESS] Sent to @test: This is a test message.
 ```
 
+## Commands
+## Add New Bot
+`$ tb add <bot name> <bot token>`
+
+## Send Message
+`$ tb msg <bot name> <username | chatID> <text>`
+*On initial, use chatID. Username will be saved upon successful execution. You'll then be able to use username afterwards.*
+
 ## About
 Contributed by Samuel Lee.
 Credits to various depedencies for making this possible: yargs, keytar, axios, store, data-store.
