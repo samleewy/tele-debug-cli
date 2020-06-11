@@ -28,6 +28,7 @@ $ tb msg sgrs test 'This is a test message.'
 
 ### Send Message
 `$ tb msg <bot name> <username | chatID> <text>`
+
 *On initial, use chatID. Username will be saved upon successful execution. You'll then be able to use username afterwards.*
 
 ## About
