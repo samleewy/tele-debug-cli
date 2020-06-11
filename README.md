@@ -18,8 +18,8 @@ $ tb add sgrs <token>
 > [SUCCESS] sgrs has been added.
 
 $ tb msg sgrs test 'This is a test message.'
-> [SUCCESS] Stored user ID, you may use @test next time instead of user ID.
-> [SUCCESS] Sent to @test: This is a test message.
+> <b>[SUCCESS] Stored user ID, you may use @test next time instead of user ID.</b>
+> <b>[SUCCESS] Sent to @test: This is a test message.</b>
 ```
 
 ## About
